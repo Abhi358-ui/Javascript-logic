@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: #fff;">
+    <h2>Amazing images</h2>
+    <div id="images">
+        <ul>
+            <li><img width="200px" id="photoshop" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-WXFIkd1wOpVvzyZVg0qwZtnCcC21kFN1cA&s" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIG3AOUHpnlc7s0rnef_ZSpk9YDSyis_hxJQ&s" alt=""></li>
+            <li><img width="200px" id="river" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDLOSxE4U319pjAEgEQF9ievmKu79TrlbdjQ&s" alt=""></li>
+            <li><img width="200px" id="owl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9SV2JvCTxUUijYNwGY7OqNIzkENFdK43vuQ&s" alt=""></li>
+            <li><img width="200px" id="prayer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uy3ouenOueOn8DpB_i5ZYfVd7ofEGxJmmw&s" alt=""></li>
+
+            <li><a  style="color: blue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+</body>
+
+<script>
+    //  document.getElementById('owl').onclick=function(){
+    //     alert("owl clicked")
+    //  }
+
+    //attachevent()
+    //JQuery - on 
+
+     //type ,timeStamp, defaultPrevented
+    // target, toElement , srcElement, cuurentTarget
+    // clientX , clientY, screenX , screenY
+    // altKey , ctrlKey , shiftKey , keyCode
+
+
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log("click inside the ul");
+        
+    // },false)
+   
+    // document.getElementById('owl').addEventListener('click',function(e){
+    //     console.log("owl clicked");
+    //     e.stopPropagation();
+        
+    // },false)
+   
+    // document.getElementById('google').addEventListener('click',function(e){
+        
+    //     e.preventDefault();
+    //     e.stopPropagation()
+    //     console.log("google clicked");
+    // })
+
+
+
+    document.querySelector('#images').addEventListener('click',function(e){
+            console.log(e.target.parentNode);
+            console.log(e.target.tagName);
+            if(e.target.tagName==='IMG')
+            {
+                let rem = e.target.parentNode
+                rem.remove();
+            }
+            
+           
+            // rem.parentNode.removeChild(rem)
+            
+    },false)
+    
+</script>
+</html>
