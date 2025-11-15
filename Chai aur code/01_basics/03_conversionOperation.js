@@ -4,19 +4,20 @@
 // let score = null; // 0
 // let score = undefined; // Nan
 // let score = true;
-// let score = false;
+let score = false;
 
 // console.log(typeof score);
 // console.log(typeof(score));
 
-// let valueInNumber = Number(score);
-// console.log(typeof(valueInNumber));
-// console.log(valueInNumber);
+let valueInNumber = Number(score);
+console.log(typeof(valueInNumber));
+console.log(valueInNumber);
 
 
 // "33" => 33
 // "22sdd" => Nan
-// true => 1 false => 0
+// true => 1 
+// false => 0
 
 
 // let isLogedIn = "12";
@@ -41,11 +42,11 @@
 
 
 
-//******************Operations **************** */
+//****************** Operations **************** */
 
 
-let value =3
-let neg =-value
+// let value =3
+// let neg =-value
 // console.log(neg);
 
 
@@ -65,8 +66,8 @@ let neg =-value
 // console.log(str3);
 
 
-// console.log("2" + 1);
-// console.log(2 + "3");
+console.log("2" + 1);
+console.log(2 + "3");
 // console.log("2" + "3");
 // console.log("1" + 3 + 4);
 // console.log(3 + 4 + "3");

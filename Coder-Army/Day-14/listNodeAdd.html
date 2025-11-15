@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <ul id="listing"></ul>
+
+
+  <!-- Js code -->
+  <script>
+
+    // creating the element 
+    let list = document.createElement('li');
+    list.innerText = 'Milk';
+
+    let list2 = document.createElement('li');
+    list2.innerText = 'Cake'
+
+    let list3 = document.createElement('li');
+    list3.innerText = 'Halwa';
+
+    let list4 = document.createElement('li');
+    list4.innerText = 'Panner';
+    
+
+    let unorderedList = document.getElementById('listing');
+
+    //? add the element at the last of the parent element
+    unorderedList.append(list);
+    unorderedList.append(list2);
+
+    //? add the element at the start of the parent element
+    unorderedList.prepend(list3);
+
+    //? add one element in the middle of the list items
+    unorderedList.children[1].after(list4);
+
+  </script>
+  
+</body>
+</html>

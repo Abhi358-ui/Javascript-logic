@@ -13,13 +13,13 @@
 
 
 
-// const obj ={
-//     name:"abhishek",
-//     age:15,
-//     sayHii:function(){
-//         console.log("i am "+this.name);
-//     }
-// }
+const obj ={
+    name:"abhishek",
+    age:15,
+    sayHii:function(){
+        console.log("i am "+this.name);
+    }
+}
 
 // obj.sayHii();
 
@@ -90,13 +90,11 @@
 
 
 
-// const fun = () => {
-//     console.log(this);
-// };
+const fun = () => {
+    console.log(this);
+};
 
-// fun();
-
-
+fun();
 
 
 
@@ -106,25 +104,27 @@
 
 
 
-const obj3 ={
-    a:10,
-    f1:function(){
-        console.log(this.a); // this==obj3
-        setTimeout(function(){
-            console.log(this); // this==window
-        },2000);
-    },
 
-    f2:function(){
-        console.log(this.a); // this == obj3
-        setTimeout(()=>{
-            console.log(this); // this == obj3
-        },2000);
-    }
-}
 
-obj3.f1();
-obj3.f2();
+// const obj3 ={
+//     a:10,
+//     f1:function(){
+//         console.log(this.a); // this==obj3
+//         setTimeout(function(){
+//             console.log(this); // this==window
+//         },2000);
+//     },
+
+//     f2:function(){
+//         console.log(this.a); // this == obj3
+//         setTimeout(()=>{
+//             console.log(this); // this == obj3
+//         },2000);
+//     }
+// }
+
+// obj3.f1();
+// obj3.f2();
 
 // aap arrow function ko as a constructor function use nhi kr sakte
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <li id="first"></li>
+
+  <script>
+
+    let arr = ['Milk', 'Panner', 'Tofu', 'Khoa','Daho'];
+
+    let listing = document.getElementById('first');
+
+    //? ye ek better way nhi ha kyuki ui baar baar update ho raha ha 
+    // for (let food of arr) {
+    //   let list = document.createElement('li')
+    //   list.innerText = food;
+    //   listing.append(list);
+    // }
+
+
+    //? we are using the fragment for the optimize sollution
+    let frag = document.createDocumentFragment();
+    for (let food of arr) {
+      let list = document.createElement('li')
+      list.innerText = food;
+      frag.append(list);
+    }
+    listing.append(frag);
+
+  </script>
+  
+</body>
+</html>

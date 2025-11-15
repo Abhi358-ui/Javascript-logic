@@ -35,3 +35,8 @@ console.log(Math.round(Math.random()*100+1));
 
 
 console.log(Math.floor(Math.random()*(20-10+1)));
+
+
+// 50 --> 100 number generate karne ke liye 
+
+console.log(Math.floor(Math.random()*51)+50);

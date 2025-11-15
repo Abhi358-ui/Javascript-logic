@@ -3,13 +3,13 @@
 // map ek nya array return karta ha
 
 
-// const a = [2,4,6,11,7];
-// const newArray = a.map((e)=>{
-//    return e+1;
-// })
+const a = [2,4,6,11,7];
+const newArray = a.map((e)=>{
+   return e+1;
+})
 
-// console.log(a);
-// console.log(newArray);
+console.log(a);
+console.log(newArray);
 
 
 
@@ -73,8 +73,8 @@
 
 //? reverse methods 
 
-let a= [1,2,3,1,23,33];
-console.log(a.reverse());
+// let a= [1,2,3,1,23,33];
+// console.log(a.reverse());
 
 
 

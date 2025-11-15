@@ -22,4 +22,7 @@ accountEmail="he@hj.com"
 accountPasswd="78787477"
 accountCity="Bihar"
 
+//? array printing
+
 console.table([account_id,accountEmail,accountPasswd,accountCity,accountState]);
+

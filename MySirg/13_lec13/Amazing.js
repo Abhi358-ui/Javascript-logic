@@ -1,12 +1,12 @@
 
 //? String ko jodna
 
-// let a = "abc";
-// let b = "def";
+let a = "abc";
+let b = "def";
 
-// console.log(`${a} and ${b}`);
-// a+=b;
-// console.log(a);
+console.log(`${a} and ${b}`);
+a+=b;
+console.log(a);
 
 
 

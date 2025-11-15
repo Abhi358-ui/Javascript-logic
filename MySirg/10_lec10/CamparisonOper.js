@@ -5,7 +5,7 @@
 // console.log(x);
 
 
-//! strict equalto ye type bhi chekc krta ha
+//! strict equal to ye type bhi chekc krta ha
 
 // let f;
 // f=3=="3"
@@ -22,6 +22,10 @@
 
 
 
+
+
+//? object me address compare kiya jata ha 
+
 // let o;
 // o = {
 //     name: "abhi",
@@ -35,18 +39,19 @@
 // };
 
 // let n = o; // yaha n me object ke memory address ja raha ha 
-// console.log(oo === o); // yaha address campare ho raha ha 
+// console.log(oo === o); // yaha address campare ho raha ha aur 2 object alg alg address pr banta ha heap me 
+// console.log(n == o);
 
 
 
 
 
 
-// console.log(0==false);
-// console.log(0===false);
+console.log(0==false);
+console.log(0===false);
 
-// console.log(0=="");
-// console.log(0==="");
+console.log(0=="");
+console.log(0==="");
 
 // console.log(undefined == 0);
 // console.log(null == undefined);

@@ -29,21 +29,21 @@ if(true)
 
 //? Video 2
 
-function one()
-{
-    const customber ="abhi"
+// function one()
+// {
+//     const customber ="abhi"
 
-    function two()
-    {
-        const website ="yt"
-        // console.log(customber);
-    }
+//     function two()
+//     {
+//         const website ="yt"
+//         console.log(customber);
+//     }
 
-    // console.log(website);
-    two();
-}
+//     // console.log(website);
+//     two();
+// }
 
-one();
+// one();
 
 
 
@@ -78,16 +78,16 @@ if(true)
 
 //! it is called hoisiting
 
-console.log(addOne(2)); // pahle define hua
+// console.log(addOne(2)); // pahle define hua
 
-function addOne(val)
-{
-    return val+1;
-}
+// function addOne(val)
+// {
+//     return val+1;
+// }
 
 
-addTwo(22);
+// addTwo(22);
 
-const addTwo=function(val){
-    return val+2;
-}
+// const addTwo=function(val){
+//     return val+2;
+// }

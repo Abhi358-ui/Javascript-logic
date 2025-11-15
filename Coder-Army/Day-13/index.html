@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1 style="background-color: yellow; color: brown;" id="first">Strike is coming on
+     <span style="display: none;">18 october</span></h1>
+  <h2 id="second" class="third">It is coming on the dhanteras</h2>
+
+
+  <ul class="third">
+    <li>Fridge</li>
+    <li>Cooler</li>
+    <li>Fan</li>
+  </ul>
+  
+
+  <script>
+
+    // get the element using the ids
+    // let ids = document.getElementById('first') 
+    // ids.innerText = 'Hello Coder army'
+
+
+    //? get the element using the tagName
+    // let a = document.getElementsByTagName('li');
+    // console.log(a); // it returns the html collections
+    
+    // to covert into an array
+    // let arr = [...a];
+    // console.log(arr);
+
+
+    // get the element using the class name
+    let ab = document.getElementsByClassName('third')
+    console.log(ab[1]);
+
+    // kisi element ko id set krna using the dom
+    ab[1].id = 'jii';
+    console.log(ab[1].id)
+  </script>
+</body>
+</html>

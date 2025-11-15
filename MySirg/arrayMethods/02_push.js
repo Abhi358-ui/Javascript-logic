@@ -1,5 +1,5 @@
 
-// push is used to add the item at the last the array 
+//? push is used to add the item at the last the array 
 
 // let arr = [12,33,11,22,33]
 // arr.push(900)
@@ -13,7 +13,7 @@
 
 
 
-// pop is used to remove the last item in the array and it is only delete last element
+//? pop is used to remove the last item in the array and it is only delete last element
 
 // let arr = [12,22,32,34,56,7]
 // arr.pop();
@@ -27,7 +27,7 @@
 
 
 
-// shift is used to remove the first element of the array
+//? shift is used to remove the first element of the array
 
 // let arr = [12,22,32,78,85]
 // arr.shift();
@@ -35,7 +35,7 @@
 
 
 
-// unshift is used to add a item in the start of the array
+//? unshift is used to add a item in the start of the array
 
 // let arr = [22,3,4,1]
 // let arr2 = ['ww','rr','wwq']
@@ -48,7 +48,7 @@
 
 
 
-// concat is used to add to array in one array and always return new array
+//? concat is used to add to array in one array and always return new array
 
 // let arr = [3,2,1]
 // let arr2 = ['ww','ee']

@@ -1,10 +1,10 @@
 
-// keywords
+//! keywords
 
-// Keywords are predefined words also known as reserved word
+//? Keywords are predefined words also known as reserved word
 
 let a=5;
-debugger;
+debugger; // it works in the brower for the debugginh of the code 
 console.log(a);
 debugger
 var x=10;

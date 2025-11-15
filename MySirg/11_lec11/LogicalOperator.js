@@ -1,19 +1,18 @@
 
 // let a=undefined;
-// let b=!a; // a true ha jisko ye false kr diya
+// let b=!a; // a false ha jisko ye true kr diya
 // console.log(a,b);
 
 
 
 
 // a=4
-b=3
+// b=3
 // c=a>0 && b++;
-// c= 0 && 3;
-c= 2&&3;
-console.log(c);
-console.log(b);
-
+// // c= 0 && 3;
+// c= 2&&3;
+// console.log(c);
+// console.log(b);
 
 
 
